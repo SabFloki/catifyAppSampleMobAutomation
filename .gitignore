@@ -3,3 +3,6 @@ screenshots
 node_modules
 node_modules
 node_modules
+.env
+allure-report
+allure-results

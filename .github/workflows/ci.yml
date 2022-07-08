@@ -3,10 +3,10 @@ name: Android BS Auto Trigger
 # Controls when the action will run.
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ develop ]
-  
+    branches: [develop]
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -23,9 +23,9 @@ jobs:
       - name: Set up Node JS 14.16.0
         uses: actions/setup-node@v1
         with:
-          node-version: '14.16.0'
-      # Clean Packages & Install Dependencies 
-      - name: Clean Packages 
+          node-version: "14.16.0"
+      # Clean Packages & Install Dependencies
+      - name: Clean Packages
         run: |
           rm -rf node_modules
           npm cache clean --force
@@ -34,21 +34,21 @@ jobs:
       - name: Install React Native CLI
         run: npm install
       # Run Android Emulator
-     # - name: Run Android Emulator
-     #   run: |
-        #  echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --install 'system-images;android-29;google_apis;x86_64'
-          # echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n test_device -k 'system-images;android-29;google_apis;x86_64' --force
-          # echo $ANDROID_HOME/emulator/emulator -list-avds
-          # echo "Starting emulator"
-          # nohup $ANDROID_HOME/emulator/emulator -avd test_device -no-snapshot > /dev/null 2>&1 &
-          # $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
-          # $ANDROID_HOME/platform-tools/adb devices
-          # echo "All Done"
-          # echo "Emulator started"
+      # - name: Run Android Emulator
+      #   run: |
+      #  echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --install 'system-images;android-29;google_apis;x86_64'
+      # echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n test_device -k 'system-images;android-29;google_apis;x86_64' --force
+      # echo $ANDROID_HOME/emulator/emulator -list-avds
+      # echo "Starting emulator"
+      # nohup $ANDROID_HOME/emulator/emulator -avd test_device -no-snapshot > /dev/null 2>&1 &
+      # $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
+      # $ANDROID_HOME/platform-tools/adb devices
+      # echo "All Done"
+      # echo "Emulator started"
       # Use HTTPS repos
       - name: Use HTTPS repos
         run: |
-          git config --global url."https://github".insteadOf ssh://git@github 
+          git config --global url."https://github".insteadOf ssh://git@github
       # Install Repo and Dependencies
       - name: Install Repo and Dependencies
         run: |

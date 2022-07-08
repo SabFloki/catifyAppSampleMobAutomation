@@ -4,7 +4,7 @@ Feature: Cat Detail
         Given I launch the app
         And I want to see a cats list page
 
-    @androidApp
+    @androidApp,@androidBSP
     Scenario: Launch app and tap on a cat from the list to see more detailed information
         When I tap on "<cat>" from the list
         Then I should see the detailed information of that cat

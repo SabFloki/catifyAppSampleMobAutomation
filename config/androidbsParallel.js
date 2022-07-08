@@ -1,4 +1,4 @@
-const {config} = require('./wdio.conf');
+const { config } = require('./wdio.conf');
 
 config.capabilities = [
     {
@@ -9,7 +9,7 @@ config.capabilities = [
         name: 'Sab-Android-CI-Push',
         app: 'bs://52c1fde59b9a46d1882d6c2072d7fd7b01ac09f6',
         deviceName: 'Samsung Galaxy S21',
-        os_version:'11.0',
+        os_version: '11.0',
         'browserstack.debug': true,
         'browserstack.appium_version': '1.21.0',
         realMobile: true,
@@ -22,7 +22,7 @@ config.capabilities = [
         name: 'Sab-Android-CI-Push',
         app: 'bs://52c1fde59b9a46d1882d6c2072d7fd7b01ac09f6',
         deviceName: 'Samsung Galaxy S10',
-        os_version:'9.0',
+        os_version: '9.0',
         'browserstack.debug': true,
         'browserstack.appium_version': '1.21.0',
         realMobile: true,
@@ -36,4 +36,4 @@ config.capabilities = [
 //  });
 
 config.cucumberOpts.tagExpression = '@androidBSP'; // pass tag to run tests specific to android
-exports.config=config
+exports.config = config
