@@ -2,14 +2,14 @@ const { config } = require('./wdio.conf');
 
 config.capabilities = [
     {
-        'browserstack.user': 'sabareeshuthayab1',
-        'browserstack.key': 'xQCVbb4rR5s4EwabYaeK',
+        'browserstack.user': process.env.BROWSER_STACK_USER,
+        'browserstack.key': process.env.BROWSER_STACK_KEY,
         platformName: 'Android',
-        build: 'NGA Android',
-        os_version:'11.0',
+        build: 'Cat Android',
+        os_version: '11.0',
         name: 'Sab-Android-IB-Auto',
         deviceName: 'Samsung Galaxy S21',
-        app: 'bs://52c1fde59b9a46d1882d6c2072d7fd7b01ac09f6',
+        app: process.env.ANDROID_BROWSER_STACK_APP,
         'browserstack.debug': true,
         'browserstack.appium_version': '1.21.0',
         realMobile: true,
