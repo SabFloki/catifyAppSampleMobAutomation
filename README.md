@@ -2,6 +2,14 @@
 
 Sample Project and cat app to run native and browser for android and ios using cucumber with page object pattern.
 
+Currently added android app for sample test run.
+
+|          | WebdriverIO | Android | iOS |
+|   :---   | :---: | :---: | :---:   |
+| Local <!-- GEN:chromium-version -->102.0.4955.0<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Browserstack <!-- GEN:webkit-version -->15.4<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| CI - Github Actions <!-- GEN:firefox-version -->98.0.2<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+
 ## Based on
 
 - WebdriverIO v7
