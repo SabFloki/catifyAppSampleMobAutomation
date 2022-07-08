@@ -1,6 +1,6 @@
 # APPIUM-Cucumber-BDD-WDIO
 
-Boilerplate project to run native and browser for android and ios using cucumber with page object pattern.
+Sample Project and cat app to run native and browser for android and ios using cucumber with page object pattern.
 
 ## Based on
 
@@ -11,9 +11,10 @@ Boilerplate project to run native and browser for android and ios using cucumber
 - Allure Reporting
 
 ## Supports
+
 - Native Android and iOS apps
-- Android Chrome browser 
-- iOS Safari browser 
+- Android Chrome browser
+- iOS Safari browser
 - Supports Page Object Model
 - Contains sample test scenarios in cucumber
 - Supports multiple cucumber html reports
