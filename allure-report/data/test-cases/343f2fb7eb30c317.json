@@ -1,0 +1,324 @@
+{
+  "uid" : "343f2fb7eb30c317",
+  "name" : "Then I should see the detailed information of that cat",
+  "fullName" : "Cat Detail: Launch app and tap on a cat from the list to see more detailed information.Then I should see the detailed information of that cat",
+  "historyId" : "396dd311f6d27705bb3111e2862d2ddb",
+  "time" : {
+    "start" : 1657264885530,
+    "stop" : 1657264886595,
+    "duration" : 1065
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1657264885538,
+        "stop" : 1657264886210,
+        "duration" : 672
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c93151a46cc912c4",
+        "name" : "Request",
+        "source" : "c93151a46cc912c4.json",
+        "type" : "application/json",
+        "size" : 114
+      }, {
+        "uid" : "886f9ffe1c2d20c9",
+        "name" : "Response",
+        "source" : "886f9ffe1c2d20c9.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/307b6c5c-0011-4706-ba95-e141ec990431/displayed",
+      "time" : {
+        "start" : 1657264886219,
+        "stop" : 1657264886276,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5623ae91b226be8",
+        "name" : "Response",
+        "source" : "f5623ae91b226be8.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Cat Image is displayed",
+      "time" : {
+        "start" : 1657264886276,
+        "stop" : 1657264886276,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1657264886277,
+        "stop" : 1657264886319,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d4f86561f971d41",
+        "name" : "Request",
+        "source" : "5d4f86561f971d41.json",
+        "type" : "application/json",
+        "size" : 88
+      }, {
+        "uid" : "1ac8dcb322c26a77",
+        "name" : "Response",
+        "source" : "1ac8dcb322c26a77.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/16443873-fac0-4994-9d07-36658061d754/text",
+      "time" : {
+        "start" : 1657264886326,
+        "stop" : 1657264886405,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a649c0076df3c268",
+        "name" : "Response",
+        "source" : "a649c0076df3c268.json",
+        "type" : "application/json",
+        "size" : 14
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Cat Name is displayed",
+      "time" : {
+        "start" : 1657264886409,
+        "stop" : 1657264886409,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1657264886409,
+        "stop" : 1657264886457,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4de5c0d5573f5162",
+        "name" : "Request",
+        "source" : "4de5c0d5573f5162.json",
+        "type" : "application/json",
+        "size" : 90
+      }, {
+        "uid" : "43b99dd583ad2253",
+        "name" : "Response",
+        "source" : "43b99dd583ad2253.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/71d6deee-8f71-4d3f-a8aa-20296e6655cb/text",
+      "time" : {
+        "start" : 1657264886463,
+        "stop" : 1657264886493,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff773d84aeb8eb81",
+        "name" : "Response",
+        "source" : "ff773d84aeb8eb81.json",
+        "type" : "application/json",
+        "size" : 17
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Cat Energy is displayed",
+      "time" : {
+        "start" : 1657264886494,
+        "stop" : 1657264886494,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1657264886495,
+        "stop" : 1657264886541,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "169a8abe6fcb5083",
+        "name" : "Request",
+        "source" : "169a8abe6fcb5083.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "b7d4d17f4f4e6d68",
+        "name" : "Response",
+        "source" : "b7d4d17f4f4e6d68.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/37087f26-1b6e-4eda-a416-b21d423bd867/text",
+      "time" : {
+        "start" : 1657264886556,
+        "stop" : 1657264886593,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "829f70eb87d132ae",
+        "name" : "Response",
+        "source" : "829f70eb87d132ae.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Cat Temperament is displayed",
+      "time" : {
+        "start" : 1657264886594,
+        "stop" : 1657264886594,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 12,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Cat Detail: Launch app and tap on a cat from the list to see more detailed information"
+  }, {
+    "name" : "testClass",
+    "value" : "Cat Detail: Launch app and tap on a cat from the list to see more detailed information"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see the detailed information of that cat"
+  }, {
+    "name" : "package",
+    "value" : "Cat Detail: Launch app and tap on a cat from the list to see more detailed information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "343f2fb7eb30c317.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

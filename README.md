@@ -8,6 +8,7 @@ Boilerplate project to run native and browser for android and ios using cucumber
 - cucumber v7
 - Node version 10.16 or higher
 - Appium
+- Allure Reporting
 
 ## Supports
 - Native Android and iOS apps

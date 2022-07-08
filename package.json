@@ -1,7 +1,7 @@
 {
-  "name": "Wdio7-appium-cucumber",
+  "name": "CatifyAndroidAppAutomation",
   "version": "1.0.0",
-  "description": "Boilerplate project to run native and browser for android and ios using cucumber with page object pattern",
+  "description": "Project to run native app for android and ios using cucumber with page object pattern",
   "scripts": {
     "android": "wdio ./config/android.config.js",
     "ios": "wdio ./config/ios.config.js",
@@ -20,7 +20,7 @@
     "native apps",
     "mobile browser"
   ],
-  "author": "Arjun Annamalai - arjun1120@gmail.com",
+  "author": "Sabfloki - sabauthay@gmail.com",
   "license": "ISC",
   "dependencies": {
     "@cucumber/cucumber": "^7.2.1",
@@ -31,15 +31,18 @@
     "@wdio/mocha-framework": "^7.5.2",
     "@wdio/spec-reporter": "^7.5.2",
     "@wdio/sync": "^7.5.2",
-    "appium": "^1.21.0",
+    "allure-commandline": "^2.17.2",
+    "appium": "^2.0.0-beta.25",
+    "browserstack-local": "^1.4.5",
     "chromedriver": "^90.0.0",
     "eslint": "^7.3.0",
-    "wdio-chromedriver-service": "^7.0.0",
-    "browserstack-local": "^1.4.5"
+    "wdio-chromedriver-service": "^7.0.0"
   },
   "devDependencies": {
+    "@wdio/allure-reporter": "^7.16.14",
     "chai": "^4.2.0",
     "multiple-cucumber-html-reporter": "^1.16.2",
-    "wdio-cucumberjs-json-reporter": "^2.0.2"
+    "wdio-cucumberjs-json-reporter": "^2.0.2",
+    "wdio-intercept-service": "^4.2.1"
   }
 }

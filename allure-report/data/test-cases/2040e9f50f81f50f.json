@@ -1,0 +1,93 @@
+{
+  "uid" : "2040e9f50f81f50f",
+  "name" : "When I tap on back button",
+  "fullName" : "Cat Detail: Launch app and tap on a cat from the list to see more detailed information.When I tap on back button",
+  "historyId" : "467eb2208187d4fdb5428c96cb5f9f97",
+  "time" : {
+    "start" : 1657264886595,
+    "stop" : 1657264887280,
+    "duration" : 685
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/appium/device/press_keycode",
+      "time" : {
+        "start" : 1657264886598,
+        "stop" : 1657264887280,
+        "duration" : 682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db15dd14d8828a6d",
+        "name" : "Request",
+        "source" : "db15dd14d8828a6d.json",
+        "type" : "application/json",
+        "size" : 18
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Cat Detail: Launch app and tap on a cat from the list to see more detailed information"
+  }, {
+    "name" : "testClass",
+    "value" : "Cat Detail: Launch app and tap on a cat from the list to see more detailed information"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I tap on back button"
+  }, {
+    "name" : "package",
+    "value" : "Cat Detail: Launch app and tap on a cat from the list to see more detailed information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2040e9f50f81f50f.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

@@ -1,0 +1,217 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "errors should be seen if API is down",
+    "uid" : "ec654d67f3a4ac49",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1657264829835,
+      "stop" : 1657264829835,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Then I should see the detailed information of that cat",
+      "uid" : "343f2fb7eb30c317",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657264885530,
+        "stop" : 1657264886595,
+        "duration" : 1065
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Then I should see the list of cats page",
+      "uid" : "fd8cc8deec595ba2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657264887280,
+        "stop" : 1657264887851,
+        "duration" : 571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "When I tap on \"Cymric\" from the list",
+      "uid" : "b5ad71b994452987",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657264860361,
+        "stop" : 1657264885530,
+        "duration" : 25169
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "And I want to see a cats list page",
+      "uid" : "346082f27797839b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657264859999,
+        "stop" : 1657264860361,
+        "duration" : 362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "When I tap on back button",
+      "uid" : "2040e9f50f81f50f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657264886595,
+        "stop" : 1657264887280,
+        "duration" : 685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Given I launch the app",
+      "uid" : "98aa9c6e2283021a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657264845261,
+        "stop" : 1657264859998,
+        "duration" : 14737
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "And errors should be seen if API is down",
+      "uid" : "aafd39aed4651662",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657264887851,
+        "stop" : 1657264887925,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Then I should see name and image for list of cats",
+      "uid" : "73bf86895e8451c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1657264779785,
+        "stop" : 1657264829833,
+        "duration" : 50048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "And errors should be seen if API is down",
+      "uid" : "61d7cffe00165eef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1657264829834,
+        "stop" : 0,
+        "duration" : -1657264829834
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "And I want to see a cats list page",
+      "uid" : "a3ab19802e048ce9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657264779171,
+        "stop" : 1657264779784,
+        "duration" : 613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Given I launch the app",
+      "uid" : "3aec4d3e189a951e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657264762981,
+        "stop" : 1657264779171,
+        "duration" : 16190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
+}

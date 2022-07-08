@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//androidx.cardview.widget.CardView/android.view.ViewGroup/android.widget.ImageView[@resource-id=\"com.catify.catify:id/itemBreedImage\"]"
+}

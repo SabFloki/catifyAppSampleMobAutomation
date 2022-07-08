@@ -11,7 +11,7 @@ config.capabilities = [
         maxInstances: 1,
         automationName: 'uiautomator2',
         deviceName: AndroidInfo.deviceName(),
-        platformVersion: AndroidInfo.platFormVersion(),
+        os_version: 11,
         app: path.resolve(`./apps/${AndroidInfo.appName()}`)
     }
 ];

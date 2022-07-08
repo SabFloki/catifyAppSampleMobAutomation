@@ -1,0 +1,108 @@
+{
+  "uid" : "3aec4d3e189a951e",
+  "name" : "Given I launch the app",
+  "fullName" : "List of cats: Launch app and verify the list of cats.Given I launch the app",
+  "historyId" : "b136ad98720fcc5ea65abf9442cec1e5",
+  "time" : {
+    "start" : 1657264762981,
+    "stop" : 1657264779171,
+    "duration" : 16190
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/appium/app/launch",
+      "time" : {
+        "start" : 1657264762987,
+        "stop" : 1657264769118,
+        "duration" : 6131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/context",
+      "time" : {
+        "start" : 1657264769120,
+        "stop" : 1657264769158,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a7fdbd7c46cebc",
+        "name" : "Request",
+        "source" : "2a7fdbd7c46cebc.json",
+        "type" : "application/json",
+        "size" : 26
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of cats: Launch app and verify the list of cats"
+  }, {
+    "name" : "testClass",
+    "value" : "List of cats: Launch app and verify the list of cats"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I launch the app"
+  }, {
+    "name" : "package",
+    "value" : "List of cats: Launch app and verify the list of cats"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3aec4d3e189a951e.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

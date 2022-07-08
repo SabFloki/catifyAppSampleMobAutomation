@@ -1,6 +1,6 @@
 class AndroidInfo {
     static deviceName() {
-        return 'emulator-5556'; // pass the udid or devicename
+        return 'emulator-5554'; // pass the udid or devicename
     }
 
     static platFormVersion() {
@@ -8,7 +8,7 @@ class AndroidInfo {
     }
 
     static appName() {
-        return 'app-release (6).apk'; // pass the apk name
+        return 'app-debug.apk'; // pass the apk name
     }
 }
 
